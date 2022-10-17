@@ -1,0 +1,791 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+/*Desktop*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
+    background-size: inherit;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.6rem;
+}
+/*Inicio Header*/
+
+.nav1 {
+    height: 17.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5.5%;
+}
+
+.logo1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #242d52;
+    cursor: default;
+}
+
+.logo1::before {
+    content: url(../img/Group-logo.png);
+    margin-right: 6px;
+}
+
+.boxpages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.pages {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #242e52;
+}
+
+.pages:hover {
+    color: #242d528c;
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+
+.boton1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    width: 134px;
+    height: 44px;
+    color: white;
+    background-color: #8848BF;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.488);
+    display: block;
+    cursor: pointer;
+}
+
+.boton1:hover {
+    padding: 15px;
+    background-color: #3CDDF3;
+}
+.boton1:focus-within {
+    background-color: #242d52;
+}
+
+.icono1 {
+    display: none;
+}
+
+/*Inicio Main
+Primera Sección*/
+
+.banner {
+    margin: 2% 10%;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    flex-direction: column;
+     width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin: 5% 5% 5% 0;
+}
+
+
+.titulo h1 {
+    text-align: start;
+    font-size: 5.5rem;
+    color: #242e52;
+    display: flex;
+    margin-top: 2px;
+   
+}
+
+.titulo p {
+    width: 80%;
+    text-align: start;
+    margin: 2% 20% 0% 0%;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.boton2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    width: 134px;
+    height: 44px;
+    color: white;
+    background-color: #8848BF;
+    font-size: 1.3rem;
+    margin-top: 15%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.488);
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.boton2:hover {
+    padding: 15px;
+   
+    background-color: #3CDDF3
+}
+
+.boton2:focus-within {
+    background-color: #242d52;
+}
+
+.grafico {
+    width: 35%;
+}
+
+.grafico img {
+    width: 450px;
+}
+
+/*Segunda Sección Main*/
+
+.info {
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.info1 {
+    width: 40%;
+    margin: 0% 5% 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: default;
+}
+
+.info1 h2 {
+    color: #232851;
+    font-size: 3.6rem;
+    width: 100%;
+    text-align: start;
+}
+
+.info1 p {
+    width: 80%;
+    height: 88px;
+    line-height: 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: start;
+    margin: 5% 25% 0% 0%;
+    color: #000000;
+}
+
+.info2 {
+    width: 50%;
+    margin: 0% 0% 0% 5%;
+}
+
+.info2 button {
+    color: white;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-left: 0%;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #8848BF;
+    cursor: grab;
+}
+
+.info2 h4 {
+    color: #242d52;
+    margin: 0% 0% 0% 4%;
+    font-size: 1.6rem;
+    width: 300px;
+    cursor: default;
+}
+
+.info2 p {
+    color: #B3B2B7;
+    line-height: 25px;
+    margin: 1% 0% 0% 14%;
+    font-size: 1.63rem;
+    width: 460px;
+    cursor: default;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.dato1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0% 0% 0% 0%;
+}
+
+.dato2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0% 0% 0% 0%;
+}
+
+.dato2:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.dato3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0% 0% 0% 0%;
+}
+
+.dato3:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+/*Tercera Sección Main*/
+
+.people {
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.people h2 {
+    font-size: 3.9rem;
+    font-weight: 700;
+    margin: 5% 0% 2% 0%;
+    color: #242d52;
+    text-align: center;
+}
+
+.people1 {
+    display: flex;
+    justify-content: space-around;
+    cursor: default;
+}
+
+.people1 img {
+    width: 70px;
+    height: 70px;
+}
+
+.people h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 5% 0% 5% 0%;
+    color: #242d52;
+}
+
+.people1 p {
+    font-size: 1.6rem;
+    color: #B9B9C1;
+    line-height: 25px;
+}
+
+.data1 {
+    display: block;
+    text-align: center;
+    width: 435px;
+    background-color: #FAFAFA;
+    margin: 2% 0% 2% 0%;
+}
+
+.data1:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.data2 {
+    text-align: center;
+    width: 435px;
+    background-color: #FAFAFA;
+    margin: 2% 0% 2% 0%;
+}
+
+.data2:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.data2 p {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.data3 {
+    display: block;
+    text-align: center;
+    width: 435px;
+    height: 250px;
+    background-color: #FAFAFA;
+    margin: 2% 0% 2% 0%;
+}
+
+.data3:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.people button {
+    width: 135px;
+    height: 45px;
+    margin-top: 3%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.38rem;
+    font-weight: 500;
+    color: white;
+    background-color: #8848BF;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+.people button:hover {
+    padding: 15px;
+    background-color: #3CDDF3
+}
+
+.people button:focus-within {
+    background-color: #242d52;
+}
+
+/*Cuarta Sección Main*/
+
+.cierremain {
+    height: 200px;
+    border-radius: 0px;
+    background-color: #8848BF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+
+.cierremain h2 {
+    text-align: left;
+    margin-top: 0%;
+    height: 96px;
+    width: 460px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    cursor: default;
+}
+
+.cierremain button {
+    height: 44px;
+    width: 134px;
+    margin-top: 0%;
+    color: #8848BF;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+}
+
+.cierremain button:hover {
+    padding: 15px;
+    background-color: #ffffffd8;
+}
+
+.cierremain button:focus-within {
+    background-color: #242d52;
+}
+
+/*Footer*/
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    height: 247px;
+    background-color: #1E1E26;
+}
+
+.mobile {
+    display: none;
+}
+
+.icono {
+    margin-top: 1%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0px;
+    width: 15%;
+}
+
+.icono p {
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 2.5rem;
+    cursor: default;
+}
+
+.icono p:before {
+    content: url(../img/Group-logo.png);
+    margin-right: 6px;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia a {
+    font-size: 2rem;
+    margin: 0%;
+    color: white;
+    padding: 5px;
+}
+
+.socialmedia a:hover {
+    color: #8848BF;
+}
+
+.ref {
+    margin-top: 1%;
+    margin-left: 0%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ref a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.ref a:hover {
+    color: #8848BF;
+}
+
+.ref1 {
+    height: 65%;
+    width: 70%;
+    margin-left: 0%;
+    line-height: 40px;
+}
+
+.ref2 {
+    height: 50%;
+    width: 30%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 7%;
+    line-height: 40px;
+}
+
+.form {
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.box input {
+    height: 44px;
+    width: 201px;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.box button {
+    margin-left: 1%;
+    height: 42px;
+    width: 63px;
+    color: white;
+    background-color: #8848BF;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #3CDDF3;
+}
+
+.box button:focus-within {
+    background-color: #242d52;
+}
+
+.form p {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8C8C94;
+    margin-left: 30%;
+    cursor: default;
+}
+
+/*MEDIA QUERIES DE 480px PARA ABAJO */
+
+@media (max-width:480px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    /*Inicio etiqueta Header*/
+   
+    .boxpages{
+        display: none;
+    }
+
+    /*inicio Etiquete Main - PRIMERA SECCTION*/
+    .banner{
+        flex-direction:column-reverse;
+    }
+    .titulo {
+        display: flex;
+        flex-direction:column;
+       justify-content: center;
+        margin: 5% 5% 5% 5%;
+    }
+    
+    .titulo h1 {
+        font-size: 4rem;
+        color: #242d52;
+        width: 340px;
+        text-align: center;
+        height: 150px;
+    }
+    
+    .titulo p {
+        text-align: center;
+        margin: 2% 0% 0% 0%;
+        font-size: 1.6rem;
+       width: 400px;
+       height: 100px;
+       margin-top: 25px;
+    }
+
+    .boton2{
+        justify-content: center;
+    }
+    
+    .icono1{
+        display: flex;
+    }
+    .boton1{
+        display: none;
+    }
+    /*segunda SECTION -  main*/
+
+    .info{
+        width: 90%;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .info1{
+        flex-direction:column;
+        display: flex;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .info1 p {
+        width: 90%;
+        height: 88px;
+        line-height: 30px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin: 3% 0% 0% 0%;
+        text-align: center;
+    
+    }
+    .info2{
+        width: 100%;
+        margin: 5% 0% 0% 0%;
+        line-height: 30px;
+    }
+
+    .info2 button {
+        font-weight: 700;
+        margin-top: 2%;
+        margin-left: 35%;
+        padding: 10px 25px;
+        border-radius: 30px;
+        border: none;
+        background-color: #8848BF
+    }
+    .info2 h4 {
+        width: 270px;
+        font-size: 1.6rem;
+        color: #323851;
+    }
+    .info2 p{
+        color: #b3b2b7;
+        width: 90%;
+        font-size: 1.6rem;;
+    }
+
+
+    .people{
+        flex-direction:column;
+        text-align: center;;
+    }
+    .info2 h4 {
+        color: #242d52;
+        margin: 0% 0% 0% 4%;
+        font-size: 1.6rem;
+        width: 300px;
+        cursor: default;
+        background-color: #d2b3ec;
+    }
+
+    /*Tercera SECTION - main*/
+    .people1 {
+        display: flex;
+        flex-direction: column-reverse
+        ;
+    }
+    .people h4{
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #242d52;
+        margin: 5% 0% 5% 0%;
+    }
+    .people1 p {
+        font-size: 1.6rem;
+        color: #B9B9C1;
+    }
+
+    .data1 {
+        display: none;
+    }
+    .data3{
+        display: none;
+    }
+    .people img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /*Cuarta SECTION - main*/
+    .cierremain{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 600px;
+        width: 500px;
+    }
+    .cierremain h2{
+        text-align: center;
+        height: 50px;
+        width: 250px;
+        font-size: 4rem;    
+    }
+
+    .cierremain button {
+        height: 50px;
+        width: 134px;
+        font-weight: 200;
+}
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+}
+
+
+.socialmedia{
+    text-align: center;
+    justify-content:space-around;
+}
+.icono{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    gap: 30px;
+    width: 100%;
+}
+
+.socialmedia a{
+    margin: 3%;
+    padding: 5px;
+}
+.ref{
+    margin-top: 1%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 25%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    display: flex;
+    width: 90%;
+    gap: 5px;
+    justify-content: center;
+    height: 70px;
+}
+.form p {
+    margin-top: 25px;
+    display:inline-block;
+    width: 280px;
+    text-align: center;
+}
+}
